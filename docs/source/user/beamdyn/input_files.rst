@@ -1,4 +1,4 @@
-.. _input-files:
+.. _bd-input-files:
 
 Input Files
 ===========
@@ -57,7 +57,7 @@ And the following :math:`3 \times 3` direction cosine matrix (``GlbDCM``) relate
 
 .. _frame:
 
-.. figure:: figs/Frame.jpg
+.. figure:: figs/frame.jpg
    :width: 80%
    :align: center
 
@@ -348,7 +348,7 @@ cases for member and key-point definition.
 
 .. _geometry1-case1:
 
-.. figure:: figs/Geometry_Member1.png
+.. figure:: figs/geometry_member1.png
    :width: 60%
    :align: center
 
@@ -356,7 +356,7 @@ cases for member and key-point definition.
 
 .. _geometry1-case2:
 
-.. figure:: figs/Geometry_Member2.png
+.. figure:: figs/geometry_member2.png
    :width: 60%
    :align: center
 
@@ -415,6 +415,8 @@ actuator, whereby the pitch angular orientation, velocity, and
 acceleration are determined by the actuator based on the input
 blade-pitch angle prescribed by the driver code.
 
+.. _BD-Outputs:
+
 Outputs
 ~~~~~~~
 
@@ -460,6 +462,10 @@ encounters an unknown/invalid channel name, it warns the users but will
 remove the suspect channel from the output file. Please refer to
 Appendix :numref:`app-output-channel` for a complete list of possible output
 parameters and their names.
+
+.. _BD-Nodal-Outputs:
+
+.. include:: BDNodalOutputs.rst
 
 Blade Input File
 ----------------
